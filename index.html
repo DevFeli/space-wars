@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
-    <script src="app/main.js" defer></script>
+    <script type="module" src="app/main.js" defer></script>
+    <link rel="stylesheet" href="app/assets/styles/main.css">
 </head>
 <body>
   <main id="board">
-    <canvas id="game" width="400" height="500" style="background:#000;border:1px solid #555"></canvas>
+    <section id="title">
+      <h1 class="fade-in-out">Space War</h1>
+    </section>
+    <canvas id="game" style="background:#000;border:1px solid #555"></canvas>
   </main>
 </body>
 </html>
